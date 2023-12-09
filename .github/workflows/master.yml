@@ -13,4 +13,4 @@ jobs:
         with:
           node-version: 20.x
       - run: npm install --frozen-lockfile
-      - run: npm  run lint && pnpm run build
+      - run: npm  run lint && npm run build
