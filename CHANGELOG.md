@@ -1,5 +1,11 @@
 # abort-controller-timer
 
+## 1.0.2
+
+### Patch Changes
+
+- some fixes
+
 ## 1.0.1
 
 ### Patch Changes
