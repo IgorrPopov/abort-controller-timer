@@ -12,6 +12,9 @@
     "init-version": "changeset init",
     "add-version": "changeset"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IgorrPopov/abort-controller-timer.git"
