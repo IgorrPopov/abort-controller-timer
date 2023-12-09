@@ -1,0 +1,15 @@
+{
+  "name": "abort-controller-timer",
+  "version": "1.0.0",
+  "description": "The repo contains a handy class for AbortController interaction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor Popov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
+  }
+}
