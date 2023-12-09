@@ -7,6 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "npm run build && changeset publish",
     "lint": "tsc",
     "init-version": "changeset init",
     "add-version": "changeset"
