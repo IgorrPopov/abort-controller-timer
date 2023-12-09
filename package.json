@@ -2,14 +2,29 @@
   "name": "abort-controller-timer",
   "version": "1.0.0",
   "description": "The repo contains a handy class for AbortController interaction",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "init-version": "changeset init",
+    "add-version": "changeset"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorrPopov/abort-controller-timer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IgorrPopov/abort-controller-timer/issues"
+  },
+  "homepage": "https://github.com/IgorrPopov/abort-controller-timer#readme",
   "author": "Igor Popov",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "@types/node": "^20.10.4",
+    "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   }
 }
