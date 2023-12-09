@@ -1,4 +1,4 @@
-export class AbortControllerTimer {
+export class TimerAbortController {
     static async resolveInTime<T>(
         promise: Promise<T>,
         timeLimit = 10_000,
@@ -11,7 +11,7 @@ export class AbortControllerTimer {
             timeLimit,
         );
 
-        return AbortControllerTimer.resolve<T>(promise, signal, timeout);
+        return TimerAbortController.resolve<T>(promise, signal, timeout);
     }
 
     private static async resolve<T>(
