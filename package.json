@@ -1,6 +1,6 @@
 {
   "name": "abort-controller-timer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The repo contains a handy class for AbortController interaction",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
